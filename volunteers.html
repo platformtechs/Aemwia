@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head><title>Volunteers Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/volunteers.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel ="stylesheet" href="css/navbar.css">
+</head>
+<body>
+      
+<!-----------------------------------------------navbar-------------------------------------------------->.
+
+<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+
+    			<div class="navbar-header">
+                    <img src="images/loogoo.png" class="pull-left imglogo"/>
+                <b>    <a class="navbar-brand" herf="#" style="color:#8e173d;" >
+                    AEMWIA</a></b>
+        			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+      				</button>
+            </div>
+    		<div>
+
+        	<div class="collapse navbar-collapse" id="myNavbar">
+        	<ul class="nav navbar-nav pull-right">
+        		    <li id="navctn" ><a href="index.html"><i class="fa fa-home ic"></i>Home</a></li>
+                  <li id="navctn" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="aboutUs.html"> <i class="fa fa-file ic"></i>About Us
+                       <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a id="navctnd" style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="aboutUs.html">Mission</a></li><hr class="line">
+            <li><a  id="navctnd" style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="aboutUs.html">Vision</a></li><hr class="line">
+            <li><a  id="navctnd" style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="aboutUs.html">Belief</a></li><hr class="line">
+            <li><a  id="navctnd" style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="aboutUs.html">Management Board</a></li><hr class="line">
+            <li><a id="navctnd"  style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="aboutUs.html">Working Model</a></li><hr class="line">
+            <li><a id="navctnd" style="margin:-5px 0px -5px 0px ; padding:10px;" class="drop" href="aboutUs.html">Approach</a></li>
+          </ul>
+        </li>
+        	  		<li id="navctn" ><a href="projects.html" ><i class="fa fa-tasks ic"></i>Projects</a></li>
+                <li id="navctn" class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="getInvolved.html"><i class="fa fa-user ic"></i>Get Involved<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a  id="navctnd" style="margin:-5px 0px 0px 0px ; padding:10px;" class="drop" href="#">Donate Now</a></li><hr class="line">
+            <li><a  id="navctnd" style="margin:-5px 0px -5px 0px ; padding:10px;" class="drop" href="form.html">Become a Volunteer</a></li>
+
+          </ul>
+        </li>
+                    <li id="navctn"><a href="blogs.html"><i class="fa fa-globe ic"></i>Blog</a></li>
+            <li id="navctn"><a href="volunteers.html"><i class="fa fa-users ic"></i>Our Volunteers</a></li>
+          </ul>
+        </div>
+    	</div>
+
+   		</nav>
+            </div>
+      
+  <!-----------------------navbar finish----------------------------------------->
+      
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 banner">
+          <img src="./images/volunteer.img.jpg" class="img-responsive imgvolun"></div></div></div>
+
+     
+<div class="container-fluid back">
+   <div class ="container head">
+         <div class="col-lg-12"><h1 style="color:white;font-size: 4em;"><center>Volunteers</center></h1></div></div><br><br><br>
+<!----------------google map--------->
+
+      <div class="container">    
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(20.5937,78.9629),
+    zoom:4,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(30.6942,76.8606),
+               map: map,});
+
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(31.6340,74.8723),
+               map: map,});
+
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(29.9671,77.5510),
+               map: map,});
+
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(28.7041,77.1025),
+               map: map,});
+
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(26.4499,803319),
+               map: map,});
+var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(25.0961,85.3131),
+               map: map,});
+
+
+
+
+
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs6VkyURI6n5RRra8a929r_WH--KWD6qw&callback=myMap"></script>
+ </div><br><br>      
+ 
+<!------------------team-area--------------------------------------->
+      
+<section class = "team-area">
+  <div class="container">
+    <div class = "row">
+       <div class = "col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+              
+             <a href="DC.jpg" target="_blank" >
+                   <img src="images/DC.jpg"></a>
+                   </div>
+              <div class = "description text-center">
+                <h2>Deepak Chawla</h2>
+                  <span>Fullstack Developer</span>
+                    <p  class="Pre">I am a Fullstack developer and love to solve complex programming problems.Along with programming, I also love to serve  human race that's why I am connected to this NGO and I really love to teach poor children for free . I experience real peace in my mind when I help others and It's my great pleasure to be the part of AEMWIA. </p>
+             </div>   
+        </div>
+       </div>
+            
+        <div class = " col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+                 
+             <a href="images/P.jpg" target="_blank" >
+                   <img src="images/P.jpg"></a>
+           </div>
+              <div class = "description text-center">
+                <h2>Prerna Pundir</h2>
+                  <span >Software Engineer</span>
+                    <p  class="Pre">Student of Panjab University.Interested in web development, JavaScript,React,Cloud computing and Node.js.To me being successful means being genuine,kind-hearted,open-minded person and helping in nature.I find the best way to love someone is not to change them,but instead,help them reveal the greatest version of themselves. </p>
+             </div>   
+        </div>
+       </div>
+            
+        <div class = " col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+              <a href="images/V.jpg" target="_blank" >
+                    <img src="images/V.jpg"></a>
+           </div>
+              <div class = "description text-center">
+                <h2>Vancha Omer</h2>
+                  <span>Software Engineer</span>
+                    <p  class="Pre">Student of Panjab University.Passion of coding and a frontend-developer.Futher wants to go for cloud computing.Love  peace , silence and spend time with nature.I am grateful for winter.It reminds us that everyone and everything needs some quiet time.I really love children and spending time with them is a blessing  for me. 
+                    </p>
+             </div>   
+        </div>
+       </div>    
+            
+        
+            </div><br><br><br><br>
+          <div class = "row">
+       <div class = "col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+             <a href="images/DG.jpg" target="_blank" >
+                   <img src="images/DG.jpg"></a>
+           </div>
+              <div class = "description text-center">
+                <h2>Diksha Gupta</h2>
+                  <span>Software Engineer</span>
+                    <p  class="Pre">I love desigining websites.Best in Python,Web-development and exploring the new things.I always ready to face the real life problems,never take back off from them .Life has knocked me down a few times.I've seen things I never want to see again.But I'll always get back up,I will never stay down.Stay happy, stay relax. 
+                    </p>
+             </div>   
+        </div>
+       </div>
+            
+        <div class = " col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+             <a href="images/T.jpg" target="_blank" >
+                   <img src="images/T.jpg"></a>
+           </div>
+              <div class = "description text-center">
+                <h2>Taniapreet Kaur</h2>
+                  <span>Software Engineer</span>
+                    <p  class="Pre">Life is so short and it's just like a mirror.You can only see as much as it reflects.So don't compare youself with others,because when comparison ends personality begins.Love travelling,exploring new things and adventure.Further wants to go for higher studies after graduation.Best in C and C++ programming languages. </p>
+             </div>   
+        </div>
+       </div>
+            
+        <div class = " col-sm-4 ">
+         <div class="team-block">
+           <div class = "Image">
+                 <a href="images/DKS.jpg" target="_blank" >
+                   <img src="images/DKS.jpg">
+                 </a>
+           </div>
+              <div class = "description text-center">
+                <h2>Dilip Kumar Sharma</h2>
+                  <span>Software Engineer</span>
+                    <p class="Pre">Head of our technical group "PLATFORM". Working on React as a intern in Chandigarh.Best in Web-development,Cloud Computing,Machine learning,Graphic design and JS.A good advicer and a best mentor . Always devoted and passionate to his work .
+                    Tackle with every problem in a very determined and efficient way.</p>
+             </div>   
+        </div>
+       </div>    
+            
+        
+        </div></div>
+
+      
+      
+      </section></div>
+
+<!----------------------footer-area------------------------------->
+  
+<section class="footer-area">
+
+<div class="container-fluid image">
+  <div class="row">
+    <div class="col-sm-12"><br>
+     <div class="col-sm-3">
+           <li><a href="index.html"><h4><b>HOME</b></h4></a></li><br>
+           <li><a href="aboutUs.html"><h4><b>ABOUT US</b></h4></a></li><br>
+           <p>AEMWIA is an NGO in SOUTH AFRICA directly benefitting over 600,000 children every 
+year through more than 250 live welfare projects on education, healthcare, livelihood and
+women empowerment, in over 950 remote villages and slumsacross 25 states of SOUTH AFRICA. </p><br>
+           <li><a href="aboutUs.html"><h5><b>VISION</b></h5></a></li>
+           <li><a href="aboutUs.html"><h5> <b>MISSION</b></h5></a></li>
+           <li><a href="aboutUs.html"><h5><b>Management Board</b></h5></a></li>
+           <li><a href="aboutUs.html"><h5><b>Approach</b></h5></a></li>
+           <li><a href="aboutUs.html"><h5><b>Working Module</b></h5></a></li>
+     </div>
+          
+     <div class="col-sm-3">
+           <li><a href="getInvolved.html"><h4><b>GET INVOLVED</b></h4></a></li><br>
+           <li><a href="#"><h5><b>Donate</b></h5></a></li>
+           <li><a href="form.html"><h5><b> Volunteers Form</b></h5></a></li>
+           <br>
+           <li><a href="blogs.html"><h4><b>BLOGS</b></h4></a></li><br>
+           <li><a href="projects.html"><h4><b>PROJECTS</b></h4></a></li>
+     </div>
+          
+     <div class="col-sm-3">
+           <li><a href="gallery.html"><h4><b>GALLERY</b></h4></a></li><br>
+           <li><a href="faq.html"><h4><b>FAQs & Contacts</b></h4></a></li><br>
+           <li><h4 class="stay"><b>STAY CONNECTED</b></h4></li><br>
+           
+            <a href="https://www.facebook.com/prerna.pundir.963?ref=bookmarks" class="fa fa-facebook"></a> 
+           <a href="https://www.instagram.com/platformtechsolut/?hl=en" class="fa fa-instagram"></a>
+           
+            <a href="#" class="fa fa-linkedin"></a>
+           <a href="https://twitter.com/Friends64879179" class="fa fa-twitter"></a>
+           
+     </div><br>
+    
+        
+    <div class="col-sm-3 form">
+          
+      <div class="form-area ">
+      <form method="post" action="https://formspree.io/prernapundir1098@gmail.com">
+            <h4><b>WRITE TO US</b></h4>
+                  <h4><b>AEMWIA</b></h4>
+              <p>South-Africa<br>Phone:987654323</p>
+            <div class="form-group">
+            <input type="text" name="Name" placeholder="Name"class="form-control" required >
+            </div>
+
+            <div class="form-group">
+            <input type="text" name="Email" placeholder="Email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+            <textarea class="form-control" placeholder="Message" name="Message"></textarea>
+             </div>
+                  <button type="submit" class="pull-left  btn btn-danger " value="submit">Send Message</button>
+
+            </form>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+       </div>
+      
+      </section>
+<div class="bottom-footer " ><div class="container-fluid"  style="background-color:#3f3f3f">
+      <center>  <p style="margin:10px;">&copy; 2018 Aemwia . All Rights Reserved.</p></center></div></div>
+      </body>
+</html>

@@ -1,0 +1,245 @@
+@font-face {
+  font-family: heading;
+  src:url(fonts/centuryGothicBold.ttf);
+
+}
+
+.imglogo
+{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+.navbar-brand
+{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #8e173d;
+  font-family: heading;
+
+}
+
+#navctn a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+
+}
+#navctnd a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: -25px;
+
+}
+#navctn a:hover
+{
+color: #f4f1f1;
+background-color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+}
+.ic
+{
+  font-size: 20px;
+  color: #8e173d;
+  margin-right: 5px;
+}
+.ic:hover
+{
+  font-size: 20px;
+  color: #f4f1f1;
+}
+.navbar-toggle
+{
+  margin-top: 25px;
+}
+.line{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.slider
+{
+  margin-top: 80px;
+}
+.sim
+{
+  width: 1630px;
+}
+.areaC
+{
+  width: 1630px;
+}
+.headingh
+{
+  font-size: 46px;
+  color: #8e173d;
+  font-family: futura-medium;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.text{
+  font-size: 16px;
+  font-family: georgia;
+  color: black;
+  text-align: justify;
+}
+.readbtn2{
+  font-size: 24px;
+  color: #f4f1f1;
+  background-color: #8e173d;
+margin-top: 30px ;
+margin-bottom: 30px;
+  border: 2px solid grey;
+  }
+  .readbtn2:hover{
+  font-size: 24px;
+
+ color: #8e173d;
+   background-color: #f4f1f1;
+border: 2px solid grey;
+margin-top: 30px ;
+margin-bottom: 30px;
+}
+@media (max-width:500px)
+{
+  .gall{
+    font-size: 30px;
+    padding-top: 16px;
+  }
+}
+@media (max-width:769px)
+{
+  .imgc{
+
+    padding:10px;
+  }
+}
+
+#workp
+{
+  margin-bottom: 50px;
+}
+.btndo
+{
+font-size: 40px;
+  margin-top:50px;
+  margin-bottom: 100px;
+    color: #f4f1f1;
+    background-color: #8e173d;
+    border: 2px solid grey;
+    border-radius: 10px;
+    }
+    .btndo:hover{
+    font-size: 40px;
+
+   color: #8e173d;
+     background-color: #f4f1f1;
+  border: 2px solid grey;
+  margin-top: 50px ;
+  margin-bottom: 100px;
+      border-radius: 10px;
+  }
+
+.textq
+{
+  font-size: 36px;
+  font-family: verdana;
+  margin-top: 100px;
+  color: white;
+
+}
+.textq:hover
+{
+  font-size: 36px;
+  font-family: verdana;
+  margin-top: 100px;
+  color: white;
+
+}
+.btndov
+{
+font-size: 40px;
+  margin-top:50px;
+  margin-bottom: 80px;
+    color: #f4f1f1;
+    background-color: #8e173d;
+    border: 2px solid grey;
+    border-radius: 10px;
+    }
+    .btndov:hover{
+    font-size: 40px;
+
+   color: #8e173d;
+     background-color: #f4f1f1;
+  border: 2px solid grey;
+  margin-top: 50px ;
+  margin-bottom: 80px;
+      border-radius: 10px;
+  }
+
+.textqv
+{
+  font-size: 25pt;
+  font-family: times new roman regular;
+  margin-top: 40px;
+  color: white;
+
+}
+.textqv:hover
+{
+  font-size: 25pt;
+  font-family: times new roman regular ;
+  margin-top: 40px;
+  color: white;
+
+}
+.headq
+{
+  font-size: 40pt;
+  font-family: stencil regular;
+  margin-top: 50px;
+  color: white;
+
+}
+.headq:hover
+{
+  font-size: 40pt;
+  font-family:  stencil regular ;
+  margin-top: 50px;
+  color: white;
+
+}
+.footer-area{
+  margin-top: 30px;
+}
+.imgvol
+{
+  margin-top: 70px;
+}
+
+.headc
+{
+  font-size: 30px;
+  color: #8e173d;
+  margin-top: 0px;
+  margin-bottom:  40px;
+}
+.cards{
+
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.cardst
+{
+  font-size: 18px;
+  margin-top: 30px;
+}

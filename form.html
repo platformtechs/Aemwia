@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Volunteers Form</title>
+
+  
+  
+<!--  javaScript-->
+  
+  
+  
+  
+  <script>
+function validateForm() {
+    //DOM manipulation..
+    var x = document.forms["volunteers-form"]["name"].value;
+    var z = document.forms["volunteers-form"]["nationality"].value;
+    var y = document.forms["volunteers-form"]["pincode"].value;
+//    var c = document.forms["volunteers-form"]["city"].value;
+//    var s = document.forms["volunteers-form"]["state"].value;
+//    var co = document.forms["volunteers-form"]["country"].value;
+//    
+    if (!isNaN(x)) {
+        alert("Name : Only alphabets are allowed");
+        return false;
+    }
+        
+    if (!isNaN(z)){
+        alert("Nationlity : Wrong Input");
+        return false;
+    }
+//    if (!isNaN(c)){
+//        alert("City : Wrong Input");
+//        return false;
+//    }
+//    if (!isNaN(s)){
+//        alert("State : Wrong Input");
+//        return false;
+//    }
+//    if (!isNaN(co)){
+//        alert("Country : Wrong Input");
+//        return false;
+//    }
+    
+    
+//    if(!isNaN(y) || y.length != 6 ){
+//        alert("Pincode : Wrong Input");
+//        return false;
+//    }
+//        
+}
+</script>
+
+    
+  
+  
+<!-- JavaScript  ends  -->
+  
+  </head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/form.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<body>
+<div class="container-fluid heading">
+  Volunteers Form
+</div>
+
+<div class="container form">
+  <form action="https://formspree.io/deepak19.engg@gmail.com" onsubmit="return validateForm()" method="post" name="volunteers-form">
+  <!--   Personal info   -->
+<div class="row sub-heading">    <h2>Personal Information</h2></div>
+<div class="row credentails">Name <input type="text" name="name" class="name" id="name" required></div>
+<div class="row credentails">DOB <input type="text" name="dob" class="dob" id="dob" required>(dd/mm/yy)</div>
+<div class="row credentails">
+  Sex
+  <select name="sex" class="sex" id="sex" required>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="transgender">Transgender</option>
+  </select></div>
+  <div class="row credentails">Nationality <input type="text" name="nationality" class="nationality" id="nationality" required></div>
+<!--==================================  -->
+
+<!--Contact Information  -->
+<div class="row sub-heading">    <h2>Contact Information</h2></div>
+<div class="row credentails">Parmanent Address<textarea required name="Parmanent-address" id="parmanent-address" cols="30" rows="5"></textarea></div>
+<div class="row credentails">City<input type="text" name="city" class="city" id="city" required></div>
+<div class="row credentails">State<input type="text" name="state" class="State" id="state" required></div>
+<div class="row credentails">Country<input type="text" name="country" id="country" class="country" required></div>
+<div class="row credentails">Pincode<input type="text" name="pincode" class="pincode" id="pincode" required></div>
+<!------------------------>
+
+<!--Correspondence Address  -->
+<div class="row sub-heading">    <h2>Correspondence Address</h2></div>
+<div class="row credentails">Address<textarea name="Correspondence-address"  id="" cols="30" rows="5"></textarea></div>
+<div class="row credentails">City<input type="text" name="Correspondence-city"  class="city" id="city"></div>
+<div class="row credentails">State<input type="text" name="Correspondence-state" class="state" id="state"></div>
+<div class="row credentails">Country<input type="text" name="Correspondence-country" class="country" id="country"></div>
+<div class="row credentails">Pincode<input type="text" name="Correspondence-pincode" class="pincode" id="pincode"></div>
+
+
+
+<!--===========================  -->
+
+<!--===========Education ============  -->
+
+<div class="row sub-heading">    <h2>Education</h2></div>
+<div class="row credentails">Degree<input type="text" name="degree" class="degree" id="degree" required></div>
+<div class="row credentails">University<input type="text" name="university" class="university" id="university" required></div>
+
+<!--================================  -->
+
+<!--====Experience====  -->
+
+<div class="row sub-heading">    <h2>Experience(if any)</h2></div>
+<div class="row credentails">No. of Years<input type="text"   name="years" class="years" id="years"></div>
+<div class="row credentails">Profession<input type="text" name="profession" class="years" id="years"></div>
+
+
+
+<!--============  -->
+
+<input type="submit" name="submit" ">
+  </form>
+</div>
+
+</body>
+</html>
