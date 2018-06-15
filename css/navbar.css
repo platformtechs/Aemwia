@@ -1,9 +1,26 @@
+@font-face {
+  font-family: heading;
+  src:url(../fonts/GILC____.ttf)
+
+}
+
+@font-face {
+     font-family:  fontscorecomttwcenmt;
+  src:url(../fonts/fontscorecomttwcenmt.ttf)
+
+}
+
+
+
 .imglogo
 {
   width: 80px;
   height: 80px;
   margin-left: 20px;
 }
+
+
+
 .navbar-brand
 {
   font-size: 30px;
@@ -11,8 +28,11 @@
   margin-top: 15px;
   color: #8e173d;
   font-family: heading;
+    letter-spacing: 5px;
 
 }
+
+
 
 #navctn a
 {
@@ -22,6 +42,11 @@ margin-top: 8px;
 
 
 
+}
+
+#navctn{
+    font-family:  fontscorecomttwcenmt;
+    font-size: 7px;
 }
 #navctnd a
 {

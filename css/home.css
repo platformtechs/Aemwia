@@ -1,8 +1,21 @@
 @font-face {
   font-family: heading;
-  src:url(fonts/centuryGothicBold.ttf);
+  src:url(../fonts/GILC____.ttf)
 
 }
+
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+      }
+
+@font-face {
+     font-family:  fontscorecomttwcenmt;
+  src:url(../fonts/fontscorecomttwcenmt.ttf)
+
+}
+
 
 .imglogo
 {
@@ -10,6 +23,7 @@
   height: 80px;
   margin-left: 20px;
 }
+
 .navbar-brand
 {
   font-size: 30px;
@@ -17,6 +31,7 @@
   margin-top: 15px;
   color: #8e173d;
   font-family: heading;
+    letter-spacing: 5px;
 
 }
 
@@ -29,6 +44,11 @@ margin-top: 8px;
 
 
 }
+s
+#navctn {
+       font-family:  fontscorecomttwcenmt;
+}
+
 #navctnd a
 {
 color: #8e173d;
@@ -78,17 +98,19 @@ margin-top: 8px;
 {
   width: 1630px;
 }
+
 .headingh
 {
   font-size: 46px;
   color: #8e173d;
-  font-family: futura-medium;
+  font-family: BRLNSDB;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
 .text{
-  font-size: 16px;
-  font-family: georgia;
+  font-size: 18px;
+  font-family: 'EB Garamond', serif;
   color: black;
   text-align: justify;
 }
@@ -99,6 +121,8 @@ margin-top: 8px;
 margin-top: 30px ;
 margin-bottom: 30px;
   border: 2px solid grey;
+ font-family:  fontscorecomttwcenmt;
+
   }
   .readbtn2:hover{
   font-size: 24px;
@@ -137,6 +161,8 @@ font-size: 40px;
     background-color: #8e173d;
     border: 2px solid grey;
     border-radius: 10px;
+           font-family:  fontscorecomttwcenmt;
+
     }
     .btndo:hover{
     font-size: 40px;
@@ -228,6 +254,7 @@ font-size: 40px;
 
 .headc
 {
+  font-family: 'Quicksand', sans-serif;
   font-size: 30px;
   color: #8e173d;
   margin-top: 0px;
@@ -242,4 +269,8 @@ font-size: 40px;
 {
   font-size: 18px;
   margin-top: 30px;
+}
+
+button{
+       font-family:  fontscorecomttwcenmt;
 }
