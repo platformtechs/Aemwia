@@ -242,6 +242,23 @@ background-position: center center;
     font-family:  fontscorecomttwcenmt;
 }
 
+.imgdonate{
+    background-image: url(../images/slider/support.jpg);
+     max-width= 100%;
+
+/*height= 388px;*/
+padding: 20px 0 0 0; /*top right bottom left*/
+
+background-repeat: no-repeat;
+background-position: center center;
+/*    background-attachment: fixed;*/
+    background-size: cover;
+   
+}
+
+
+
+
 #workp
 {
   margin-bottom: 50px;
@@ -272,7 +289,7 @@ font-size: 40px;
 .textq
 {
   font-size: 36px;
-  font-family: verdana;
+  font-family: 'Playfair Display', serif;
   margin-top: 100px;
   color: white;
 
@@ -280,7 +297,7 @@ font-size: 40px;
 .textq:hover
 {
   font-size: 36px;
-  font-family: verdana;
+  font-family: 'Playfair Display', serif;
   margin-top: 100px;
   color: white;
 
@@ -339,9 +356,13 @@ font-size: 40px;
   color: white;
 
 }
-.footer-area{
-  margin-top: 30px;
+
+.footer-index{
+      margin: 30px -30px;
+    margin-bottom: 0px;
+    
 }
+
 .imgvol
 {
   margin-top: 70px;
@@ -362,8 +383,9 @@ font-size: 40px;
 }
 .cardst
 {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 30px;
+  font-family: 'Comfortaa', cursive;
 }
 
 button{
