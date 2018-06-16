@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+      }
+
+
+
 .heading{
   display: flex;
   justify-content: center;
@@ -8,7 +17,7 @@
   margin-top: 3%;
   /* margin-bottom: : 3%; */
   border-radius: 30px;
-  font-family: 'Merriweather', serif;
+  font-family: BRLNSDB;
 
 }
 
