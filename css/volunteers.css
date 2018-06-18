@@ -74,10 +74,11 @@
     {
           
             color:#8e173d;
-            font-size: 15px;
+            font-size: 18px;
             font-weight: bold;
             padding-top: 50px;
-            font-family: 'Comfortaa', cursive; 
+            font-family: 'Comfortaa', cursive;
+        
       }
 
  
@@ -92,7 +93,7 @@
       {
             background-color:#f4f1f1;
             box-shadow: 4px 4px 4px  4px #7e7e7e;
-            font-family: 'EB Garamond', serif;            
+            font-family: 'Times New Roman', serif;            
       
       }
 .description:hover 
