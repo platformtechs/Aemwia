@@ -1,4 +1,8 @@
 
+
+
+
+
 .banner-img
        {
         margin-top: 4%;
@@ -63,17 +67,20 @@
             left:50%;
             margin-top:-50px;
             margin-left: -50px;
+          
       }
 
  h2
     {
+          
             color:#8e173d;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             padding-top: 50px;
-            
+            font-family: 'Comfortaa', cursive; 
       }
 
+ 
 .team-block p
       {
             color:dimgrey;
@@ -85,6 +92,7 @@
       {
             background-color:#f4f1f1;
             box-shadow: 4px 4px 4px  4px #7e7e7e;
+            font-family: 'EB Garamond', serif;            
       
       }
 .description:hover 
@@ -138,3 +146,8 @@
 }
      
       
+.Pre{
+    font-family: 'Comfortaa', cursive;
+    font-size:13px;
+}
+

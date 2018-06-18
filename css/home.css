@@ -146,6 +146,8 @@ margin-bottom: 30px;
     font-size: 30px;
     padding-top: 16px;
   }
+    
+    
 }
 @media (max-width:769px)
 {
@@ -153,6 +155,8 @@ margin-bottom: 30px;
 
     padding:10px;
   }
+    
+
 }
 
 .volunteers-row{
@@ -392,3 +396,18 @@ font-size: 40px;
 button{
        font-family:  fontscorecomttwcenmt;
 }
+
+.bod{
+    border-right:1.5px solid #8e173d; 
+}
+
+
+@media screen and (max-width:600px)
+{
+    .bod{
+        border: none;
+    }
+
+}
+
+
