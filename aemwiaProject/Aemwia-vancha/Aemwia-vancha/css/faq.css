@@ -1,0 +1,81 @@
+                          
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+}
+ 
+.footer-container{
+    margin-left: -2.2%;
+    margin-right: -2.2%;
+}    
+
+
+              
+    .faq
+        {
+      height:80px;
+      margin-top: 50px;
+      border: 2px solid #a0ada7;
+      color: #f4f1f1;
+      background-color: #8e173d;
+      font-size: 30pt;
+        padding-left: 20px;
+      padding-top: 12px;
+      margin-bottom: 40px;
+      border-radius:20px;
+        font-family: 'BRLNSDB';
+    }
+              
+              
+    @media (max-width:550px)
+    {
+    .faq
+        {
+          font-size: 24pt;
+          padding-top: 20px;
+            
+        }
+}
+    .accordion {
+
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin-top: 20px;
+        color: #8e173d;
+        background-color:#f4f1f1;
+    }
+  .active , .accordion:hover{
+        background-color:#8e173d;
+      color: #f4f1f1;
+
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        padding: 10px 18px 10px 18px ;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+color: #8e173d;
+background-color: #f4f1f1;
+    }
+                
+                .prom{
+                   color:#696969;   
+                }
+
+

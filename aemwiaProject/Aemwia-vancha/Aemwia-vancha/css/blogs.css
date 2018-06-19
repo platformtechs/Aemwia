@@ -1,0 +1,112 @@
+
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+}
+.pro
+    {
+      height:80px;
+      margin-top: 50px;
+      border: 2px solid #a0ada7;
+      color: #f4f1f1;
+      background-color: #8e173d;
+      font-size: 30pt;
+    padding-left: 20px;
+      padding-top: 12px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      font-family: BRLNSDB;
+    }
+    @media(max-width:500px)
+    {
+      .pro{
+        font-size: 30px;
+        padding-top: 16px;
+      }
+    }
+    .imgb{
+        width:300px;
+        height: 250px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      .con{
+        margin-top: 40px ;
+        margin-bottom: 20px;
+      }
+              .con img{
+                  height: 338px;
+                  width: 353px;
+              }
+
+      .head{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:#8e173d;
+  font-family: 'Quicksand', sans-serif;
+}
+.text{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'EB Garamond', serif;
+  color:#696969;
+  font-size:18px;
+    text-align: justify;
+
+}
+    @media (max-width:769px) {
+        .imgb
+        {
+          width: 769px;
+        }
+      }
+ @font-face
+      {
+
+    font-family: futura-medium;
+    src: url(../Fonts/futura-medium.ttf);
+    }
+
+@font-face
+      {
+
+    font-family: futura-book;
+    src: url(../Fonts/futura-book.ttf);
+    }
+
+@font-face
+      {
+
+    font-family: Geogia;
+    src: url(../Fonts/Geogia.ttf);
+    }
+
+.cont{
+    margin-top: 5%;
+    margin-left: -2.2%;
+    margin-right: -2.2%;
+}
+<!-------------------------------------------------banner-css---------------------------------------------->
+@media (max-width:806px)
+{
+  .banner-blog
+  {
+    margin-top: 220px;
+  }
+    }
+@media (max-width:769px)
+    {
+      .banner-blog
+      {
+        margin-top: 80px;
+      }
+        }
+  @media (max-width:350px)
+        {
+          .banner-blog
+          {
+            margin-top: 160px;
+          }
+            }
+<!-----------------------------------------------------end-------------------------------------------------->
