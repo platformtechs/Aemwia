@@ -1,0 +1,88 @@
+@font-face {
+  font-family: heading;
+  src:url(../fonts/GILC____.ttf)
+
+}
+
+@font-face {
+     font-family:  fontscorecomttwcenmt;
+  src:url(../fonts/fontscorecomttwcenmt.ttf)
+
+}
+
+
+
+.imglogo
+{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+
+
+.navbar-brand
+{
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 15px;
+  color: #8e173d;
+/*  font-family: heading;*/
+    font-family: 'times new roman';
+    
+    letter-spacing: 3px;
+
+}
+
+
+
+#navctn a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+
+}
+
+#navctn{
+    font-family:  fontscorecomttwcenmt;
+    font-size: 7px;
+}
+#navctnd a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: -25px;
+
+}
+#navctn a:hover
+{
+color: #f4f1f1;
+background-color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+}
+.ic
+{
+  font-size: 20px;
+  color: #8e173d;
+  margin-right: 5px;
+}
+.ic:hover
+{
+  font-size: 20px;
+  color: #f4f1f1;
+}
+.navbar-toggle
+{
+  margin-top: 25px;
+}
+.line{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}

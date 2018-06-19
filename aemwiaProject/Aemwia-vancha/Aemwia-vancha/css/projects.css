@@ -1,0 +1,102 @@
+
+
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+}
+
+
+
+    .pro
+    {
+      height:80px;
+      margin-top: 50px;
+      border: 2px solid #a0ada7;
+      color:#f4f1f1 ;
+      background-color: #8e173d;
+      font-size: 30pt;
+       padding-left: 20px;
+      padding-top: 12px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      font-family: BRLNSDB ;
+    }
+    @media(max-width:500px)
+    {
+      .pro{
+        font-size: 30px;
+        padding-top: 16px;
+      }
+    }
+
+                  .con img{
+                      width: 284px;
+                         height:350px;
+                  }
+
+
+
+    .imgb{
+        width:300px;
+        height: 250px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      .con{
+        margin-top: 40px ;
+        margin-bottom: 20px;
+      }
+      .head{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color:#8e173d;
+      font-family: 'Quicksand', sans-serif;
+    }
+.text{
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  font-size: 18px;
+    text-align: justify;
+    font-family: 'EB Garamond', serif;
+}
+    @media (max-width:769px) {
+        .imgb
+        {
+          width: 769px;
+        }
+      }
+                .text{
+                      color:#696969
+                }
+
+.cont{
+    margin-top: 5%;
+}
+
+
+<!-------------------------------------------------banner-css---------------------------------------------->
+@media (max-width:806px)
+{
+  .cont
+  {
+    margin-top: 220px;
+  }
+    }
+@media (max-width:769px)
+    {
+      .cont
+      {
+        margin-top: 80px;
+      }
+        }
+  @media (max-width:350px)
+        {
+          .cont
+          {
+            margin-top: 145px;
+          }
+            }
+<!-----------------------------------------------------end-------------------------------------------------->

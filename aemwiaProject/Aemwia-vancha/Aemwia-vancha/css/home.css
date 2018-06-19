@@ -1,0 +1,434 @@
+@font-face {
+  font-family: heading;
+  src:url(../fonts/GILC____.ttf)
+
+}
+
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+      }
+
+@font-face {
+     font-family:  fontscorecomttwcenmt;
+  src:url(../fonts/fontscorecomttwcenmt.ttf)
+
+}
+
+@font-face {
+    font-family:Avenir-Medium;
+    src:url(../fonts/Avenir-Medium.ttf)
+}
+
+
+.imglogo
+{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.navbar-brand
+{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #8e173d;
+/*  font-family: heading;*/
+    font-family: 'times new roman';
+    letter-spacing: 5px;
+
+}
+
+#navctn a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+
+}
+
+#navctn {
+       font-family:  fontscorecomttwcenmt;
+}
+
+#navctnd a
+{
+color: #8e173d;
+font-size:18px;
+margin-top: -25px;
+
+}
+#navctn a:hover
+{
+color: #f4f1f1;
+background-color: #8e173d;
+font-size:18px;
+margin-top: 8px;
+
+
+}
+.ic
+{
+  font-size: 20px;
+  color: #8e173d;
+  margin-right: 5px;
+}
+.ic:hover
+{
+  font-size: 20px;
+  color: #f4f1f1;
+}
+.navbar-toggle
+{
+  margin-top: 25px;
+}
+.line{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.slider
+{
+  margin-top: 80px;
+}
+.sim
+{
+  width: 1630px;
+}
+.areaC
+{
+  width: 1630px;
+/*    height: 750px;*/
+}
+
+.headingh
+{
+  font-size: 46px;
+  color: #8e173d;
+  font-family: BRLNSDB;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text{
+  font-size: 18px;
+  font-family: 'EB Garamond', serif;
+  color: black;
+  text-align: justify;
+}
+.readbtn2{
+  font-size: 24px;
+  color: #f4f1f1;
+  background-color: #8e173d;
+margin-top: 30px ;
+margin-bottom: 30px;
+  border: 2px solid grey;
+ font-family:  fontscorecomttwcenmt;
+    color: white;
+
+  }
+  .readbtn2:hover{
+  font-size: 24px;
+
+ color: #8e173d;
+   background-color: #f4f1f1;
+border: 2px solid grey;
+margin-top: 30px ;
+margin-bottom: 30px;
+}
+@media (max-width:500px)
+{
+  .gall{
+    font-size: 30px;
+    padding-top: 16px;
+  }
+
+
+}
+@media (max-width:769px)
+{
+  .imgc{
+
+    padding:10px;
+  }
+
+
+}
+
+.volunteers-row{
+    background: url(../images/slider/volimage.png);
+    height:450px;
+
+    max-width= 100%;
+
+/*height= 388px;*/
+padding: 20px 0 0 0; /*top right bottom left*/
+
+background-repeat: no-repeat;
+background-position: center center;
+/*    background-attachment: fixed;*/
+    background-size: cover;
+    margin-top: 3%;
+
+}
+
+
+.volunteers-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+    font-family: BRLNSDB;
+    color: black;
+}
+
+
+.volunteers-message{
+/*
+    display: flex;
+    justify-content: center;
+*/
+    text-align: center;
+    color: white;
+    font-size: 25px;
+/*    background-color: #B8B8B8;*/
+    background-color: black;
+    opacity: 0.7;
+    font-family: Avenir-Medium;
+
+
+}
+
+.volunteers-message-text{
+    opacity: 1;
+    padding: 1%;
+    font-family: Avenir-Medium;
+}
+
+
+
+@media screen and (min-width:601px)
+{
+    .volunteers-heading{
+        font-size: 80px;
+    }
+
+    .volunteers-message{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+
+    .volunteers-heading{
+        font-size: 60px;
+    }
+
+
+    .volunteers-message{
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+.JoinUs-button{
+    display: flex;
+    justify-content: center;
+    font-family:  fontscorecomttwcenmt;
+}
+
+.imgdonate{
+    background-image: url(../images/slider/support.jpg);
+     max-width= 100%;
+
+/*height= 388px;*/
+padding: 20px 0 0 0; /*top right bottom left*/
+
+background-repeat: no-repeat;
+background-position: center center;
+/*    background-attachment: fixed;*/
+    background-size: cover;
+
+}
+
+
+
+
+#workp
+{
+  margin-bottom: 50px;
+}
+.btndo
+{
+font-size: 40px;
+  margin-top:50px;
+  margin-bottom: 100px;
+    color: #f4f1f1;
+    background-color: #8e173d;
+    border: 2px solid grey;
+    border-radius: 10px;
+           font-family:  fontscorecomttwcenmt;
+
+    }
+    .btndo:hover{
+    font-size: 40px;
+
+   color: #8e173d;
+     background-color: #f4f1f1;
+  border: 2px solid grey;
+  margin-top: 50px ;
+  margin-bottom: 100px;
+      border-radius: 10px;
+  }
+
+.textq
+{
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 100px;
+  color: white;
+
+}
+.textq:hover
+{
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 100px;
+  color: white;
+
+}
+.btndov
+{
+font-size: 40px;
+  margin-top:50px;
+  margin-bottom: 80px;
+    color: #f4f1f1;
+    background-color: #8e173d;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family:  fontscorecomttwcenmt;
+    }
+    .btndov:hover{
+    font-size: 40px;
+
+   color: #8e173d;
+     background-color: #f4f1f1;
+  border: 2px solid grey;
+  margin-top: 50px ;
+  margin-bottom: 80px;
+      border-radius: 10px;
+  }
+
+.textqv
+{
+  font-size: 25pt;
+  font-family: times new roman regular;
+  margin-top: 40px;
+  color: white;
+
+}
+.textqv:hover
+{
+  font-size: 25pt;
+  font-family: times new roman regular ;
+  margin-top: 40px;
+  color: white;
+
+}
+.headq
+{
+  font-size: 40pt;
+  font-family: stencil regular;
+  margin-top: 50px;
+  color: white;
+
+}
+.headq:hover
+{
+  font-size: 40pt;
+  font-family:  stencil regular ;
+  margin-top: 50px;
+  color: white;
+
+}
+
+.footer-index{
+      margin: 30px -30px;
+    margin-bottom: 0px;
+
+}
+
+.imgvol
+{
+  margin-top: 70px;
+}
+
+.headc
+{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: #8e173d;
+  margin-top: 0px;
+  margin-bottom:  40px;
+}
+.cards{
+
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.cardst
+{
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: 'Comfortaa', cursive;
+}
+
+button{
+       font-family:  fontscorecomttwcenmt;
+}
+
+.bod{
+    border-right:1.5px solid #8e173d;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .bod{
+        border: none;
+    }
+
+}
+
+    @media (max-width:806px)
+    {
+      .slider
+      {
+        margin-top: 220px;
+      }
+        }
+    @media (max-width:769px)
+        {
+          .slider
+          {
+            margin-top: 80px;
+          }
+            }
+      @media (max-width:350px)
+            {
+              .slider
+              {
+                margin-top: 150px;
+              }
+                }

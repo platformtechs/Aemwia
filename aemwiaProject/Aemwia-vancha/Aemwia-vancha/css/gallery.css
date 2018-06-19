@@ -1,0 +1,33 @@
+                        
+@font-face {
+  font-family:BRLNSDB ;
+  src:url(../fonts/BRLNSDB.ttf)
+
+}
+
+
+
+/*
+.main-block{
+    width: 800px;
+}
+*/
+
+.heading{
+       color: white;
+        font-size: 80px;
+        font-family: BRLNSDB;
+        margin-top: 3%;
+    }
+    
+
+.col-lg-12{
+/*    margin-right: -20px;*/
+}
+.thumbnail{
+    margin: 2px;
+    
+/*    border: 2px solid black;*/
+/*    margin-left: -16px;*/
+/*    margin-right: -16px;*/
+}
