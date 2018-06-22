@@ -432,3 +432,38 @@ button{
                 margin-top: 150px;
               }
                 }
+
+.c{
+  display: none;
+}
+@media (max-width:600px)
+{
+  .slider{
+    display: none;
+  }
+  .c{
+    display: block;
+    }
+}
+
+    @media (max-width:806px)
+    {
+      .c
+      {
+        margin-top: 220px;
+      }
+        }
+    @media (max-width:769px)
+        {
+          .c
+          {
+            margin-top: 80px;
+          }
+            }
+      @media (max-width:350px)
+            {
+              .c
+              {
+                margin-top: 150px;
+              }
+                }
